@@ -1,4 +1,4 @@
-# uechan9220 ![Build Status](https://travis-ci.org/sindresorhus/sindresorhus.svg?branch=master)
+# uechan9220 [![Build Status](https://travis-ci.org/MokeeeMokeee/uechan9220.svg?branch=master)](https://travis-ci.org/MokeeeMokeee/uechan9220)
 
 ## Reference
 [sindresorhus](https://github.com/sindresorhus/sindresorhus)
