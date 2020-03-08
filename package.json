@@ -1,53 +1,61 @@
 {
-	"name": "sindresorhus",
-	"version": "2.1.0",
-	"description": "The Sindre Sorhus CLI",
-	"license": "MIT",
-	"repository": "sindresorhus/sindresorhus",
-	"author": {
-		"name": "Sindre Sorhus",
-		"email": "sindresorhus@gmail.com",
-		"url": "sindresorhus.com"
-	},
-	"bin": {
-		"sindresorhus": "source/cli.js"
-	},
-	"engines": {
-		"node": ">=8"
-	},
-	"scripts": {
-		"test": "xo && ava"
-	},
-	"files": [
-		"source"
-	],
-	"keywords": [
-		"cli-app",
-		"cli",
-		"sindresorhus",
-		"unicorns"
-	],
-	"dependencies": {
-		"import-jsx": "^2.0.0",
-		"ink": "^2.1.1",
-		"ink-select-input": "^3.1.1",
-		"meow": "^5.0.0",
-		"open": "^6.3.0",
-		"react": "^16.8.6",
-		"term-img": "^4.1.0",
-		"terminal-image": "^0.2.0"
-	},
-	"devDependencies": {
-		"ava": "^1.4.1",
-		"eslint-config-xo-react": "^0.19.0",
-		"eslint-plugin-react": "^7.7.0",
-		"eslint-plugin-react-hooks": "^1.6.0",
-		"execa": "^1.0.0",
-		"xo": "^0.24.0"
-	},
-	"xo": {
-		"extends": [
-			"xo-react"
-		]
-	}
+  "name": "uechan9220",
+  "version": "2.1.0",
+  "description": "The Kazuya Uejima CLI",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/uechan9220/uechan9220.git"
+  },
+  "main": "/bin/uechan9220",
+  "author": "Kazuya Uejima (moke.dev)",
+  "bin": {
+    "uechan9220": "source/cli.js"
+  },
+  "engines": {
+    "node": ">=8"
+  },
+  "scripts": {
+    "test": "xo && ava"
+  },
+  "files": [
+    "source"
+  ],
+  "keywords": [
+    "cli-app",
+    "cli",
+    "uechan9220"
+  ],
+  "dependencies": {
+    "import-jsx": "^2.0.0",
+    "ink": "^2.1.1",
+    "ink-big-text": "^1.0.1",
+    "ink-select-input": "^3.1.1",
+    "ink-text-animation": "^0.1.0",
+    "meow": "^5.0.0",
+    "open": "^6.3.0",
+    "react": "^16.8.6",
+    "term-img": "^4.1.0",
+    "terminal-image": "^0.2.0"
+  },
+  "devDependencies": {
+    "ava": "^1.4.1",
+    "chance": "^1.1.4",
+    "eslint-config-xo-react": "^0.19.0",
+    "eslint-plugin-react": "^7.7.0",
+    "eslint-plugin-react-hooks": "^1.6.0",
+    "execa": "^1.0.0",
+    "rewire": "^4.0.1",
+    "sinon": "^9.0.0",
+    "xo": "^0.24.0"
+  },
+  "xo": {
+    "extends": [
+      "xo-react"
+    ]
+  },
+  "bugs": {
+    "url": "https://github.com/uechan9220/uechan9220/issues"
+  },
+  "homepage": "https://github.com/uechan9220/uechan9220#readme"
 }

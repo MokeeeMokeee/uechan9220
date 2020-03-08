@@ -1,10 +1,9 @@
-'use strict';
-const path = require('path');
-const React = require('react');
-const {Box, Text} = require('ink');
-const SelectInput = require('ink-select-input').default;
-const open = require('open');
-const terminalImage = require('terminal-image');
+"use strict";
+const path = require("path");
+const React = require("react");
+const { Box, Text, Color } = require("ink");
+const SelectInput = require("ink-select-input").default;
+const open = require("open");
 
 const handleSelect = item => {
 	if (item.url) {
@@ -26,49 +25,25 @@ const createItems = items => {
 
 const items = createItems([
 	{
-		label: 'Website',
-		url: 'https://sindresorhus.com'
+		label: "Website",
+		url: "https://moke.dev/"
 	},
 	{
-		label: 'Twitter',
-		url: 'https://twitter.com/sindresorhus'
+		label: "Twitter",
+		url: "https://twitter.com/uechan9220"
 	},
 	{
-		label: 'GitHub',
-		url: 'https://github.com/sindresorhus'
-	},
-	{
-		label: 'Blog',
-		url: 'https://blog.sindresorhus.com'
-	},
-	{
-		label: 'Ask Me Anything',
-		url: 'https://github.com/sindresorhus/ama'
-	},
-	{
-		label: 'Contact',
-		url: 'https://sindresorhus.com/contact'
-	},
-	{
-		label: 'Support my open source work',
-		url: 'https://www.patreon.com/sindresorhus'
-	},
-	{
-		label: 'Unicorns!',
-		async action() {
-			console.log(await terminalImage.file(path.join(__dirname, 'unicorn1.gif')));
-			console.log(await terminalImage.file(path.join(__dirname, 'unicorn2.gif')));
-			console.log(await terminalImage.file(path.join(__dirname, 'unicorn3.gif')));
-		}
+		label: "GitHub",
+		url: "https://github.com/mokeeemokeee"
 	},
 	// TODO: Add separator item here when https://github.com/vadimdemedes/ink-select-input/issues/4 is done
 	{
-		label: '---------'
+		label: "---------"
 	},
 	{
-		label: 'Quit',
+		label: "Quit",
 		action() {
-			process.exit(); // eslint-disable-line unicorn/no-process-exit
+			process.exit();
 		}
 	}
 ]);
@@ -76,8 +51,8 @@ const items = createItems([
 module.exports = () => (
 	<Box flexDirection="column">
 		<Box marginBottom={1}>
-			<Text>I’m a full-time open-sourcerer making things like macOS apps, CLI tools, and modules.</Text>
+			<Text bold>I'm a Web FrontEnd developer💻</Text>
 		</Box>
-		<SelectInput items={items} onSelect={handleSelect}/>
+		<SelectInput items={items} onSelect={handleSelect} />
 	</Box>
 );
